@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+  <div id="wrapper">
+    <h1 data-bind="title">Hello World!</h1>
+    <ul data-bind="list">
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+    </ul>
+    <form>
+      <div>
+        <input type="text" name="text" value="text" data-bind="name" />
+      </div>
+      <div>
+        <select name="select" data-bind="select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" name="submit" />
+      </div>
+    </form>
+  </div>
+  <script src="bind.this.js"></script>
+  <script src="test1.js"></script>
+</body>
+</html>
